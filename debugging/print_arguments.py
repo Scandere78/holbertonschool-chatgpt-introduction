@@ -1,8 +1,5 @@
-#!/usr/bin/python3
 import sys
 
-if len(sys.argv) == 1:
-    print("No arguments provided.")
-else:
-    for i in range(len(sys.argv)):
+for i in range(len(sys.argv)):
+    if i != 0:
         print(sys.argv[i])
